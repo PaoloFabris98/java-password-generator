@@ -33,9 +33,10 @@ public class PasswordGenerator {
         System.out.println(dayOfBirth);
         System.out.println(monthOfBirth);
         System.out.println(yearOfBirth);
+
         password = (name + "-" + surname + "-" + color + "-" + dayOfBirth + "/" + monthOfBirth + "/" + yearOfBirth);
 
         System.out.println(password);
-
+        input.close();
     }
 }
